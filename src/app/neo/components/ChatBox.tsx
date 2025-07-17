@@ -14,7 +14,7 @@ type Message = {
 
 export default function ChatBox() {
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'assistant', content: 'Hello, I’m Neo 🧠. Ask me anything!' },
+    { role: 'assistant', content: 'Hello, I’m GR8 🧠. Ask me anything!' },
   ])
   const [isTyping, setIsTyping] = useState(false)
   const bottomRef = useRef<HTMLDivElement>(null)
@@ -82,7 +82,7 @@ export default function ChatBox() {
             fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem' },
           }}
         >
-          🧠 Neo - Your Personal AI Assistant
+          🧠 GR8 - Your Personal AI Assistant
         </Typography>
 
         <Box sx={{ position: 'absolute', right: 16 }}>

@@ -18,7 +18,7 @@ export default function ChatInput({ onSend }: { onSend: (msg: string) => void })
       <TextField
         fullWidth
         size="small"
-        placeholder="Message Neo..."
+        placeholder="Message GR8..."
         value={text}
         onChange={(e) => setText(e.target.value)}
         onKeyDown={(e) => {

@@ -9,7 +9,7 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'Neo - Your Personal AI Assistant',
+  title: 'Gr8 - Your Personal AI Assistant',
   description: 'Ask me anything, anytime!',
 }
 
